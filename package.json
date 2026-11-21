@@ -13,6 +13,14 @@
     "status"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobeychan/dsh-qianwen-status-dashboard.git"
+  },
+  "homepage": "https://github.com/tobeychan/dsh-qianwen-status-dashboard#readme",
+  "bugs": {
+    "url": "https://github.com/tobeychan/dsh-qianwen-status-dashboard/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
