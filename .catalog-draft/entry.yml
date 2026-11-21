@@ -1,7 +1,0 @@
-url: https://github.com/OWNER/dsh-qianwen-status-dashboard
-name: OWNER/dsh-qianwen-status-dashboard
-category: usage
-description:
-  en: 'Shows Qianwen CLI login state, token expiry countdown, subscription plan and monthly credit usage in a settings panel, and can start the browser device-code re-login from the panel when the token has expired.'
-  zh: '在设置面板里显示千问 CLI 的登录状态、Token 到期倒计时、订阅套餐与月度额度用量；Token 过期时可直接在面板里发起浏览器设备码重新登录。'
-icon: https://raw.githubusercontent.com/OWNER/dsh-qianwen-status-dashboard/main/assets/icon-180.png
