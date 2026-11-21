@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Qianwen status dashboard",
+    "description": "Shows the local qianwen CLI's login state, Token expiry countdown, subscription plan and monthly credits on a Settings page. Read-only: it runs qianwen auth status and subscription status. Open Settings, then choose Qianwen status dashboard; it refreshes on demand and every 60 seconds."
+  }
+}

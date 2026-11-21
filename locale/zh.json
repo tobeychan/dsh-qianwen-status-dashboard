@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "千问状态看板",
+    "description": "在设置页展示本机 qianwen CLI 的登录状态、Token 到期倒计时、订阅套餐与月度额度。只读：仅执行 qianwen auth status 与 qianwen subscription status。打开「设置」后在左侧选择「千问状态看板」；支持手动刷新与每 60 秒自动刷新。"
+  }
+}
