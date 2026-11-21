@@ -396,6 +396,9 @@ window.__ModuleLoader__.load({
           if (!alive.current) return
           if (res.ok && body?.renewal) {
             setData(prev => (prev ? { ...prev, renewal: body.renewal } : prev))
+            // Already signed in (or the sign-in just completed): pull a fresh
+            // snapshot so the cards stop showing the expired state.
+            if (body.renewal.phase === 'idle') load()
           } else {
             setError(body?.error || `HTTP ${res.status}`)
           }

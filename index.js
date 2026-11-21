@@ -207,6 +207,14 @@ class Renewal {
       return this.view()
     }
 
+    // `--init-only` short-circuits with `already_authenticated` when the stored
+    // token is still valid, so there is nothing to authorize and no URL to show.
+    const already = device?.events?.find(entry => entry?.event === 'already_authenticated')
+    if (already?.authenticated === true) {
+      this.reset()
+      return this.view()
+    }
+
     const event = device?.events?.find(entry => entry?.event === 'device_code')
     const url = event?.verification_url
     if (typeof url !== 'string' || url === '') {

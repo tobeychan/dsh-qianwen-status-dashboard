@@ -1,6 +1,6 @@
 {
   "name": "dsh-qianwen-status-dashboard",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "type": "module",
   "description": "Qianwen status dashboard for DeepSeek Harness: login state, Token expiry countdown, subscription plan, monthly credits, and assisted re-login when the token expires.",
   "keywords": [
