@@ -64,11 +64,17 @@ If a link expires before you confirm, use **重新生成链接 / Generate a new 
 
 ## Install
 
-Install from the npm package name in **Plugins → Add plugin**, or from a local directory:
+Add the plugin in **Plugins → Add plugin** using either spec:
+
+```
+https://github.com/tobeychan/dsh-qianwen-status-dashboard/releases/latest/download/dsh-qianwen-status-dashboard.tgz
+```
 
 ```
 dsh-qianwen-status-dashboard
 ```
+
+The tarball URL points at the latest GitHub Release, so it keeps working across versions. The npm spec works once the package is published to the registry; the tarball spec works today.
 
 ## License
 
